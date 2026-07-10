@@ -71,3 +71,76 @@ header{
 .hero h1{
     font-size: 50px;
 }
+
+
+.speakers-section {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.25rem; 
+    font-weight: 700;
+    margin-bottom: 40px;
+    letter-spacing: -0.5px;
+}
+
+
+.speakers-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px; 
+}
+
+
+.speaker-card {
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    overflow: hidden; 
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    
+}
+.image-wrapper {
+    width: 100%;
+    height: 320px; 
+    overflow: hidden;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: center;
+}
+
+
+.card-content {
+    padding: 24px;
+}
+
+.category {
+    display: block;
+    font-size: 0.75rem; 
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #2563eb; 
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+}
+
+.name {
+    font-size: 1.25rem; 
+    font-weight: 700;
+    color: #111111;
+    margin-bottom: 6px;
+}
+
+.designation {
+    font-size: 0.875rem;
+    color: #666666; 
+    line-height: 1.4;
+}
