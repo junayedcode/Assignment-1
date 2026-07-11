@@ -1,0 +1,10 @@
+Act as a beginner-friendly frontend developer. I am making a clean tech conference landing page. Right below the pricing section, I have an empty space where I need to add a "Frequently Asked Questions (FAQ)" section.
+
+Please provide a very simple, clean, and modern FAQ section using only HTML and CSS. 
+
+Requirements for a beginner:
+1. Keep the HTML structure simple and easy to understand (use basic divs, headings, and paragraphs).
+2. The CSS should be clean, well-commented, and easy to modify.
+3. Keep the styling matched with a tech theme (use clean fonts like 'Inter' or 'sans-serif', simple borders, and nice padding).
+4. Do not use complex JavaScript. If you make an accordion, try to use pure CSS or just very basic HTML/CSS.
+5. It must be fully responsive so it looks good on mobile phones too.

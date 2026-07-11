@@ -2,13 +2,13 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-     font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 .logo {
     display: flex;
     align-items: center;
-   
+
 }
 
 
@@ -27,15 +27,15 @@ ul {
     align-items: center;
     list-style: none;
     gap: 20px;
-    
-}
- 
-ul li a{
-     text-decoration: none;
-     color:#575757;
+
 }
 
-.btn{
+ul li a {
+    text-decoration: none;
+    color: #575757;
+}
+
+.btn {
     padding: 10px 20px;
     background-color: #1D4ED8;
     border-radius: 10px;
@@ -45,9 +45,9 @@ ul li a{
     cursor: pointer;
 }
 
-header{
-    background-image:     linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url('./assets/banner.jpg');
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('./assets/banner.jpg');
     height: 90vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -55,23 +55,41 @@ header{
     display: grid;
     text-align: center;
     align-items: center;
-    
-    
 }
 
-.hero{
-   color: white;
-   text-align: center;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   gap: 24px;
-   
+.hero {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%; 
+    box-sizing: border-box;
+    padding-top: 60px; 
+    padding-bottom: 40px; 
 }
 
-.hero h1{
+.hero h1 {
     font-size: 50px;
+    margin-bottom: 0;
 }
+
+.hero p {
+    margin-top: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #1D4ED8;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: auto; 
+    
+}
+
 
 
 .speakers-section {
@@ -83,7 +101,7 @@ header{
 
 .section-title {
     text-align: center;
-    font-size: 2.25rem; 
+    font-size: 2.25rem;
     font-weight: 700;
     margin-bottom: 40px;
 }
@@ -92,7 +110,7 @@ header{
 .speakers-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px; 
+    gap: 30px;
 }
 
 
@@ -101,8 +119,9 @@ header{
     border: 1px solid #eaeaea;
     border-radius: 12px;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
-    
+
 }
+
 .image-wrapper {
     width: 100%;
     height: 320px;
@@ -120,15 +139,15 @@ header{
 
 .category {
     display: block;
-    font-size: 0.75rem; 
+    font-size: 0.75rem;
     text-transform: uppercase;
     font-weight: 600;
-    color: #2563eb; 
+    color: #2563eb;
     margin-bottom: 8px;
 }
 
 .speaker-card h3 {
-    font-size: 1.25rem; 
+    font-size: 1.25rem;
     font-weight: 700;
     color: #111111;
     margin-bottom: 6px;
@@ -136,208 +155,262 @@ header{
 
 .speaker-card p {
     font-size: 0.875rem;
-    color: #666666; 
+    color: #666666;
     line-height: 1.4;
 }
 
 
 
-.pricing{
-    max-width:1200px;
-    margin:100px auto;
+.pricing {
+    max-width: 1200px;
+    margin: 100px auto;
 }
 
-.pricing h2{
-    text-align:center;
-    font-size:42px;
-    color:#0F172A;
-    margin-bottom:10px;
+.pricing h2 {
+    text-align: center;
+    font-size: 42px;
+    color: #0F172A;
+    margin-bottom: 10px;
 }
 
-.subtitle{
-    text-align:center;
-    color:#6B7280;
-    margin-bottom:50px;
+.subtitle {
+    text-align: center;
+    color: #6B7280;
+    margin-bottom: 50px;
 }
 
-.pricing-container{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:30px;
+.pricing-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
 }
 
-.price-card{
-    background:#fff;
-    border:1px solid #E5E7EB;
-    border-radius:12px;
-    padding:30px;
-    box-shadow:0 5px 15px rgba(0,0,0,.08);
-    display:flex;
-    flex-direction:column;
+.price-card {
+    background: #fff;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .08);
+    display: flex;
+    flex-direction: column;
 }
 
-.price-card .plan{
-    font-size:13px;
-    color:#6B7280;
-    font-weight:700;
-    margin-bottom:10px;
+.price-card .plan {
+    font-size: 13px;
+    color: #6B7280;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
 
-.price-card h3{
-    font-size:48px;
-    color:#111827;
+.price-card h3 {
+    font-size: 48px;
+    color: #111827;
 }
 
-.price-card span{
-    color:#6B7280;
-    margin-top:5px;
-    margin-bottom:20px;
+.price-card span {
+    color: #6B7280;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
-.price-card hr{
-    border:none;
-    border-top:1px solid #E5E7EB;
-    margin-bottom:20px;
+.price-card hr {
+    border: none;
+    border-top: 1px solid #E5E7EB;
+    margin-bottom: 20px;
 }
 
-.price-card ul{
-    display:flex;
-    flex-direction:column;
-    align-items:flex-start;
-    gap:15px;
-    list-style:disc;
-    padding-left:20px;
-    flex:1;
+.price-card ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    list-style: disc;
+    padding-left: 20px;
+    flex: 1;
 }
 
-.price-card ul li{
-    color:#374151;
-    line-height:1.5;
+.price-card ul li {
+    color: #374151;
+    line-height: 1.5;
 }
 
 
 
-.active{
-    background:#0F172A;
-    color:white;
+.active {
+    background: #0F172A;
+    color: white;
 }
 
 .active h3,
 .active span,
 
 .active .plan {
-    color:white;
+    color: white;
 }
 
-.active hr{
-    border-top:1px solid rgba(255,255,255,.2);
+.active hr {
+    border-top: 1px solid rgba(255, 255, 255, .2);
 }
 
-.active ul li{
-  color: white;  
+.active ul li {
+    color: white;
 }
+
 .outline-btn,
-.primary-btn{
-    width:100%;
-    padding:14px;
-    border-radius:8px;
-    font-size:16px;
-    font-weight:600;
-    margin-top:30px;
-    cursor:pointer;
+.primary-btn {
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30px;
+    cursor: pointer;
 }
 
-.outline-btn{
-    background:white;
-    border:1px solid #2563EB;
-    color:#2563EB;
+.outline-btn {
+    background: white;
+    border: 1px solid #2563EB;
+    color: #2563EB;
 }
 
-.primary-btn{
-    background:#2563EB;
-    border:none;
-    color:white;
+.primary-btn {
+    background: #2563EB;
+    border: none;
+    color: white;
 }
 
 .outline-btn:hover,
-.primary-btn:hover{
-    opacity:.9;
+.primary-btn:hover {
+    opacity: .9;
 }
 
-.faq-section{
-    background:rgb(29, 28, 28);          
-    padding:80px 20px;
-    font-family:Inter, sans-serif;
+.faq-section {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* Main container */
-.faq-container{
-    max-width:900px;
-    margin:auto;
+.faq-container {
+    max-width: 900px;
+    margin: auto;
 }
 
 /* Section heading */
-.section-title{
-    text-align:center;
-    margin-bottom:50px;
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
 }
 
-.section-title h2{
-    color:#ffffff;
-    font-size:36px;
-    margin-bottom:12px;
+.section-title h2 {
+    color: #000000;
+    font-size: 36px;
+    margin-bottom: 12px;
 }
 
-.section-title p{
-    color:#94a3b8;
-    font-size:16px;
+.section-title p {
+    color: #000000;
+    font-size: 16px;
 }
 
 /* FAQ Card */
-.faq-item{
-    background:#1e293b;
-    border:1px solid #334155;
-    border-radius:10px;
-    margin-bottom:18px;
-    padding:18px 20px;
+.faq-item {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    margin-bottom: 18px;
+    padding: 18px 20px;
 }
 
 /* Question */
-.faq-item summary{
-    cursor:pointer;
-    list-style:none;
-    color:#ffffff;
-    font-size:18px;
-    font-weight:600;
+.faq-item summary {
+    cursor: pointer;
+    list-style: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 /* Remove default arrow */
-.faq-item summary::-webkit-details-marker{
-    display:none;
+
+
+
+.faq-item summary::after {
+    content: "+";
+    float: right;
+    font-size: 22px;
+    color: #ffffff;
 }
 
-/* Add custom + icon */
-.faq-item summary::after{
-    content:"+";
-    float:right;
-    font-size:22px;
-    color:#3b82f6;
-}
 
-/* Change to - when opened */
-.faq-item[open] summary::after{
-    content:"−";
-}
+
 
 /* Answer */
-.faq-item p{
-    margin-top:15px;
-    color:#cbd5e1;
-    line-height:1.7;
-    font-size:15px;
+.faq-item p {
+    margin-top: 15px;
+    color: #cbd5e1;
+    line-height: 1.7;
+    font-size: 15px;
 }
 
-/* Hover effect */
-.faq-item:hover{
-    border-color:#3b82f6;
+
+.site-footer {
+    background-color: #0b192c;
+    padding: 20px 40px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+
+
+.footer-bottom {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-left {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 12px;
+}
+
+.footer-mini-logo {
+    height: 24px;
+    width: auto;
+    display: block;
+}
+
+
+.footer-left p {
+    color: #64748b;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+
+.footer-right {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-right a {
+    color: #64748b;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+.footer-right a:hover {
+    color: #94a3b8;
+}
+
+.footer-right a:hover {
+    color: #94a3b8;
 }
